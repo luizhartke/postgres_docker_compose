@@ -1,0 +1,8 @@
+db:
+  image: postgres:9.4.8
+  environment:
+    POSTGRES_PASSWORD: fefedao
+    POSTGRES_USER: fefedao
+    POSTGRES_DB: fefedao
+  ports:
+   - "5432:5432"
